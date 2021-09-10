@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 // import About from "./components/About";
 // import Experience from "./components/Experience";
 // import Projects from "./components/Projects";
@@ -7,7 +7,7 @@ import React, { useEffect } from "react";
 // import Card from './components/UI'
 // import AOS from "aos";
 // import "aos/dist/aos.css";
-import { Button, Card, ListGroup, ListGroupItem } from "react-bootstrap";
+import { Card, ListGroup, ListGroupItem } from "react-bootstrap";
 import './App.css'
 import Navigation from './components/Navbar'
 import Goal from './components/Goal'
