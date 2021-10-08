@@ -6,16 +6,15 @@ function Navigation() {
         <div>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Ryan Hillier React Portfolio</Navbar.Brand>
+                    <Navbar.Brand href="#home">Ryan Hillier Portfolio</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">Projects</Nav.Link>
-                            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">GoodNeighbor</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">ReadMe Generator</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            <Nav.Link href="#home"></Nav.Link>
+                            <NavDropdown title="Projects" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="https://thegoodneighbor.herokuapp.com/">GoodNeighbor</NavDropdown.Item>
+                                <NavDropdown.Item href="https://github.com/Ryan1992186/ReadmeGenerator">ReadMe Generator</NavDropdown.Item>
+                                <NavDropdown.Item href="https://vicebrary.herokuapp.com/login">Vicebrary</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">Contact Me</NavDropdown.Item>
                             </NavDropdown>

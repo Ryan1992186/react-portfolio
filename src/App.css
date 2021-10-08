@@ -1,12 +1,54 @@
+
 .skills {
-        margin-left: 400px;
+        float: center;
+        margin-left: auto;
+        font-family: 'Gemunu Libre', sans-serif;
 }
 
 .bg-dark img {
-    max-width:100%
+    max-width: 100%;
+
 }
 
 .bg-dark {
-    max-width: 50%;
-    float:left
+    max-width: auto;
+    margin-bottom: 20px;
+    float:right;
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.border-light {
+    margin-bottom: 50px;
+}
+
+.card-img-top{
+    max-width: 20rem;
+}
+
+.card {
+    margin: auto;
+    float: none;
+    margin-bottom: 25px;
+}
+
+.card-body {
+    margin-bottom: 10px;
+}
+
+.MuiBox-root{
+    color: rgb(255, 255, 255);
+    margin: auto;
+    float: none;
+}
+
+.MuiTabs-root {
+    color: white;
+}
+
+.MuiPaper-root {
+    margin: auto;
+    display: flex;
+    display: inline-flexbox;
+    margin-bottom: 30px;
 }
