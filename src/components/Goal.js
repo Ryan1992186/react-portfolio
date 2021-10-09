@@ -3,9 +3,8 @@ import { Card } from "react-bootstrap";
 
 export default function Goal() {
     return (
-        <div classname='mission-card'>
+        <div class='mission-card'>
             <Card className="bg-dark text-white">
-                <Card.Img src="https://genelab.nasa.gov/sites/default/files/inline-images/NASA_GeneLab_banner_0.jpg" alt="Card image" />
                 <Card.ImgOverlay>
                     <Card.Title></Card.Title>
                     <Card.Text>

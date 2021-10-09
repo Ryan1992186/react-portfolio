@@ -1,4 +1,4 @@
-import react from 'react'
+
 import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 
 function Navigation() {
@@ -15,8 +15,6 @@ function Navigation() {
                                 <NavDropdown.Item href="https://thegoodneighbor.herokuapp.com/">GoodNeighbor</NavDropdown.Item>
                                 <NavDropdown.Item href="https://github.com/Ryan1992186/ReadmeGenerator">ReadMe Generator</NavDropdown.Item>
                                 <NavDropdown.Item href="https://vicebrary.herokuapp.com/login">Vicebrary</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Contact Me</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>

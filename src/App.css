@@ -1,35 +1,42 @@
 
-.skills {
-        float: center;
-        margin-left: auto;
-        font-family: 'Gemunu Libre', sans-serif;
+.accordion{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    box-shadow: #888888;
+    box-shadow: 10px 5px;
+
 }
 
 .bg-dark img {
-    max-width: 100%;
-
-}
-
-.bg-dark {
     max-width: auto;
-    margin-bottom: 20px;
-    float:right;
-    font-size: 35px;
-    font-family: 'Amatic SC', cursive;
+    text-decoration: white;
+
 }
 
-.border-light {
-    margin-bottom: 50px;
+.mission-card {
+    max-width: auto;
+    font-size: 35px;
+    mix-blend-mode: difference;
+    filter:brightness(55%);
+    margin-bottom: 90px;
+    font-family: 'Amatic SC', cursive;
 }
 
 .card-img-top{
     max-width: 20rem;
 }
 
-.card {
+.mb-2 {
+    box-shadow: 10px 5px #2b2b2b;
+}
+
+.profile-setup {
     margin: auto;
     float: none;
     margin-bottom: 25px;
+    box-shadow: 10px 5px;
+    box-shadow: #888888;
 }
 
 .card-body {
@@ -40,15 +47,36 @@
     color: rgb(255, 255, 255);
     margin: auto;
     float: none;
+    box-shadow: 10px 10px #888888;
 }
 
 .MuiTabs-root {
     color: white;
+    box-shadow: 10px 10px #888888;
 }
 
 .MuiPaper-root {
     margin: auto;
-    display: flex;
-    display: inline-flexbox;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+    box-shadow: 10px 10px #888888;
+
+}
+
+.MuiImageList-root{
+    margin: auto;
+    box-shadow: #888888;
+    box-shadow: 10px 10px;
+}
+
+.MuiBottomNavigation-root {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    box-shadow: #888888;
+    box-shadow: 5px 5px;
+}
+
+.mb-2 {
+    margin: auto;
+    float: none;
 }
