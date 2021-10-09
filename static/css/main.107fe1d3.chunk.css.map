@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,QACQ,iBACR,CAEA,aACI,cACJ,CAEA,SACI,aAAc,CACd,UACJ","file":"main.107fe1d3.chunk.css","sourcesContent":[".skills {\r\n        margin-left: 400px;\r\n}\r\n\r\n.bg-dark img {\r\n    max-width:100%\r\n}\r\n\r\n.bg-dark {\r\n    max-width: 50%;\r\n    float:left\r\n}\r\n"]}
