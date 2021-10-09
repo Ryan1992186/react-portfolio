@@ -9,7 +9,7 @@ export default function Hobbies() {
   return (
     <ImageList sx={{ width: 800, height: 450 }}>
       <ImageListItem key="Subheader" cols={2}>
-        <ListSubheader component="div">Hobbies!</ListSubheader>
+        <ListSubheader component="div">My Hobbies!</ListSubheader>
       </ImageListItem>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
