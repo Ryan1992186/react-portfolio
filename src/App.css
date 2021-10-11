@@ -1,9 +1,5 @@
-* {
-    margin: auto;
-    float: none;
-}
-
 .accordion{
+    margin: auto;
     max-width: 800px;
     margin-top: 10px;
     margin-bottom: 5rem;
@@ -13,6 +9,7 @@
 }
 
 .bg-dark img {
+    margin: auto;
     max-width: auto;
     text-decoration: white;
 
@@ -28,6 +25,7 @@
 }
 
 .card-img-top{
+    margin: auto;
     max-width: 20rem;
 }
 
@@ -36,6 +34,7 @@
 }
 
 .profile-setup {
+    margin: auto;
     float: none;
     margin-bottom: 25px;
     box-shadow: 10px 5px;
@@ -43,30 +42,30 @@
 }
 
 .card-body {
+    margin: auto;
     margin-bottom: 25px;
 }
 
 .MuiBox-root{
+    margin: auto;
     color: rgb(255, 255, 255);
     box-shadow: 10px 10px #888888;
 }
 
-.MuiTabs-root {
-    color: white;
-    box-shadow: 10px 10px #888888;
-}
-
 .MuiPaper-root {
+    margin: auto;
     margin-bottom: 35px;
     box-shadow: 10px 10px #888888;
 
 }
-
+/* controls hobby list images box */
 .MuiImageList-root{
+    margin: auto;
     width: 800px;
     height: 800px;
 }
 
+/* controls bottom navigation bar */
 .MuiBottomNavigation-root {
     margin: auto;
     margin-top: 25px;
@@ -75,21 +74,18 @@
     box-shadow: 5px 5px;
 }
 
-.aboutMe{
-    margin-top: 10px;
-    float: none;
+/* controls employment cards */
+.mb-2 {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 5rem;
 }
-
-/* .mb-2 {
-    margin: 800px;
-    float: none;
-} */
 
 @media only screen and (max-width: 768px ){
     
     .accordion {
         margin: auto;
-        margin-top: 10px;
+        margin-top: 10rem;
         margin-bottom: 5rem;
         box-shadow: #888888;
         box-shadow: 10px 5px;
@@ -128,7 +124,7 @@
     }
     
     .card-body {
-        margin-bottom: 25px;
+        margin-bottom: 5rem;
     }
     
     .MuiBox-root{
@@ -143,27 +139,23 @@
     
     .MuiPaper-root {
         margin: auto;
-        margin-bottom: 5rem;
-        margin-top: 5rem;
+        margin-bottom: 10rem;
+        margin-top: 10rem;
         box-shadow: 10px 10px #888888;
     }
     
     .MuiImageList-root{
+        margin-top: 10rem;
+        margin-bottom: auto;
         width: auto;
         height: auto;
     }
     
     .MuiBottomNavigation-root {
         margin: auto;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
+        margin-top: 10rem;
         box-shadow: #888888;
         box-shadow: 5px 5px;
     }
     
-    .aboutMe{
-        margin: auto;
-        float: none;
-    }
-
 }
