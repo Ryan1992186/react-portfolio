@@ -9,3 +9,19 @@ body {
     background-attachment: fixed;
     background-size: auto;
 }
+
+
+@media only screen and (max-width: 768px){
+
+    *{
+         margin: 0;
+         padding: 0;
+    }
+
+    body {
+        background-image: url(https://cdn.wallpapersafari.com/74/8/seuf9I.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: auto;
+    }
+}

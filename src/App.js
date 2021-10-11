@@ -52,7 +52,7 @@ const App = (props) => {
           bg={variant.toLowerCase()}
           key={idx}
           text={variant.toLowerCase() === 'dark'}
-          style={{maxWidth: 800}}
+          style={{maxWidth: 800 }}
           className="mb-2 skills"
         >
           <div>
