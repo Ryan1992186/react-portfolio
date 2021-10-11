@@ -70,7 +70,7 @@ const App = (props) => {
             </div>
           </div>
         </Card>
-      ))};
+      ))}
       <div>
         <Skills/>
         <Hobbies />
