@@ -36,6 +36,7 @@ export default function Comcast() {
                             <Typography variant="body3" color="text.primary">
                                 <CardContent>
                                     <Card className='Comcast'>
+                                        <h2>2016-2019: Warehouse Materials Handler & Assistant Technician</h2>
                                         Conducted tests on fiber optic cables and corrected faults.
                                         Installed, set up and repaired devices and system components.
                                         Read and interpreted technical documentation in order to accurately configure equipment.

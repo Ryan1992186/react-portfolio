@@ -36,7 +36,7 @@ export default function PivotPoint() {
               <Typography variant="body3" color="text.primary">
                 <CardContent>
                   <Card className='PivotPoint'>
-                    As a Pivot Point Consulting IT Desk Agent, I provided ongoing and upstanding customer support to clients ( MyChart, District Medical Group ) assisted patients and personell with any technical related issues and provide basic troubleshooting. Worked closely with upper echelon IT personal as well with escalations and any further requested assistance.
+                    <h2>Current Position: IT Desk Agent </h2>provide ongoing and upstanding customer support to clients ( MyChart, District Medical Group ) assisted patients and personell with any technical related issues and provide basic troubleshooting. Worked closely with upper echelon IT personal as well with escalations and any further requested assistance.
                   </Card>
                 </CardContent>
               </Typography>

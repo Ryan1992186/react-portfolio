@@ -14,7 +14,7 @@ export default function Footer() {
   };
 
   return (
-    <BottomNavigation sx={{ width: 800 }}  onChange={handleChange} onClick={href}>
+    <BottomNavigation onChange={handleChange} onClick={href}>
       <BottomNavigationAction
         label="Email"
         href={`mailto: Ryan1992186@gmail.com?`}

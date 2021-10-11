@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, ListGroup, ListGroupItem } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import './App.css'
 import Navigation from './components/Navbar'
 import Goal from './components/Goal'
@@ -38,11 +38,6 @@ const App = (props) => {
               Aspiring Software Engineer
             </Card.Text>
           </Card.Body>
-          <ListGroup className="list-group-flush">
-            <ListGroupItem>State: Illinois</ListGroupItem>
-            <ListGroupItem>City: Loves Park</ListGroupItem>
-            <ListGroupItem>Zipcode: 6111</ListGroupItem>
-          </ListGroup>
         </Card>
       </div>
       <PivotPoint />
@@ -57,12 +52,12 @@ const App = (props) => {
           bg={variant.toLowerCase()}
           key={idx}
           text={variant.toLowerCase() === 'dark'}
-          style={{ width: '50rem' }}
+          style={{maxWidth: 800}}
           className="mb-2 skills"
         >
           <div>
             <div>
-              <Card style={{ width: 800 }}>
+              <Card class='aboutMe'>
                 <Card.Header>A little bit about me.</Card.Header>
                 <Card.Body>
                   <Card.Title>Technical Professional 5+ years of Logistics and Networking Experience</Card.Title>

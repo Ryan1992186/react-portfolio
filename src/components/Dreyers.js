@@ -36,6 +36,7 @@ export default function Dreyers() {
                             <Typography variant="body3" color="text.primary">
                                 <CardContent>
                                     <Card className='Dreyers'>
+                                        <h2>2019-2020: Logistics Planner & OSD Specialist </h2>
                                         Researched and recommended cost-effective transportation methods utilizing fourkites carrier tracking.
                                         Planned travel routes within SAP/TM
                                         Dispatch load tenders to external customers (carriers)

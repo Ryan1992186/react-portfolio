@@ -7,7 +7,7 @@ import IconButton from '@mui/material/IconButton';
 
 export default function Hobbies() {
   return (
-    <ImageList sx={{ width: 800, height: 450 }}>
+    <ImageList>
       <ImageListItem key="Subheader" cols={2}>
         <ListSubheader component="div">My Hobbies!</ListSubheader>
       </ImageListItem>
