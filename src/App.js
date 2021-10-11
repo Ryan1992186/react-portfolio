@@ -9,7 +9,8 @@ import Dreyers from './components/Dreyers'
 import Footer from './components/Footer'
 import Hobbies from './components/Hobbies'
 import Skills from './components/Skills'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import professionalPicture from './images/ProfessionalPicture.jpg'
+
 
 /**
  * @author
@@ -31,7 +32,7 @@ const App = (props) => {
       <Goal />
       <div>
         <Card className='profile-setup' style={{ width: '20rem' }}>
-          <Card.Img variant="top" src="https://media.istockphoto.com/vectors/default-placeholder-man-vector-id844000458?b=1&k=20&m=844000458&s=612x612&w=0&h=xSyzC1Fm1pvX07lsz50QB3CkGHE89p8kR34Hx9Gq9eM=" />
+          <Card.Img variant="top" src={professionalPicture}/>
           <Card.Body>
             <Card.Title>Ryan Hillier</Card.Title>
             <Card.Text>
