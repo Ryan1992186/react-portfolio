@@ -1,18 +1,13 @@
 .accordion{
     margin: auto;
     max-width: 800px;
-    margin-top: 10px;
+    margin-top: 5rem;
     margin-bottom: 5rem;
-    box-shadow: #888888;
-    box-shadow: 10px 5px;
-
 }
 
 .bg-dark img {
     margin: auto;
     max-width: auto;
-    text-decoration: white;
-
 }
 
 .mission-card {
@@ -29,16 +24,11 @@
     max-width: 20rem;
 }
 
-.mb-2 {
-    box-shadow: 10px 5px #2b2b2b;
-}
-
 .profile-setup {
     margin: auto;
     float: none;
     margin-bottom: 25px;
-    box-shadow: 10px 5px;
-    box-shadow: #888888;
+
 }
 
 .card-body {
@@ -48,14 +38,11 @@
 
 .MuiBox-root{
     margin: auto;
-    color: rgb(255, 255, 255);
-    box-shadow: 10px 10px #888888;
 }
 
 .MuiPaper-root {
     margin: auto;
     margin-bottom: 35px;
-    box-shadow: 10px 10px #888888;
 
 }
 /* controls hobby list images box */
@@ -68,8 +55,7 @@
 /* controls bottom navigation bar */
 .MuiBottomNavigation-root {
     margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 5rem;
 }
 
 /* controls employment cards */
@@ -115,14 +101,6 @@
     
     .card-body {
         margin-bottom: 5rem;
-    }
-    
-    .MuiBox-root{
-        color: rgb(255, 255, 255);
-    }
-    
-    .MuiTabs-root {
-        color: white;
     }
     
     .MuiPaper-root {
