@@ -70,8 +70,6 @@
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
-    box-shadow: #888888;
-    box-shadow: 5px 5px;
 }
 
 /* controls employment cards */
@@ -87,8 +85,6 @@
         margin: auto;
         margin-top: 10rem;
         margin-bottom: 5rem;
-        box-shadow: #888888;
-        box-shadow: 10px 5px;
     
     }
     
@@ -111,16 +107,10 @@
         max-width: 20rem;
     }
     
-    .mb-2 {
-        box-shadow: 10px 5px #2b2b2b;
-    }
-    
     .profile-setup {
         margin: auto;
         float: none;
         margin-bottom: 25px;
-        box-shadow: 10px 5px;
-        box-shadow: #888888;
     }
     
     .card-body {
@@ -129,19 +119,16 @@
     
     .MuiBox-root{
         color: rgb(255, 255, 255);
-        box-shadow: 10px 10px #888888;
     }
     
     .MuiTabs-root {
         color: white;
-        box-shadow: 10px 10px #888888;
     }
     
     .MuiPaper-root {
         margin: auto;
         margin-bottom: 10rem;
         margin-top: 10rem;
-        box-shadow: 10px 10px #888888;
     }
     
     .MuiImageList-root{
@@ -154,8 +141,6 @@
     .MuiBottomNavigation-root {
         margin: auto;
         margin-top: 10rem;
-        box-shadow: #888888;
-        box-shadow: 5px 5px;
     }
     
 }
